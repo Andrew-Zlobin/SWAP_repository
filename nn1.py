@@ -16,8 +16,8 @@ class TextPredictor:
 
         #constants        
         self.inp_words = 3
-        self.path = "\\Users\\Xenia\\Desktop\\prog\\python\\alterex\\ann_2022\\saved_model"
-        self.tokenizer_path = "\\Users\\Xenia\\Desktop\\prog\\python\\alterex\\ann_2022\\tokenizers"
+        self.path = "saved_model/"
+        self.tokenizer_path = "tokenizers/"
         self.model = ''
         self.load_model()
     
